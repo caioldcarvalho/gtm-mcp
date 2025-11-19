@@ -22,6 +22,14 @@ Servidor MCP (Model Context Protocol) para integração com a API do Google Tag 
 
 ## 🔑 Configuração de Autenticação
 
+> 📖 **Para um guia passo a passo detalhado com explicações, veja [SETUP_GUIDE.md](./SETUP_GUIDE.md)**
+
+### Resumo Rápido:
+
+1. **Google Cloud Console** → Criar Service Account → Baixar JSON
+2. **Google Tag Manager** → Adicionar email da Service Account como usuário
+3. **Projeto** → Colocar JSON como `service-account-key.json`
+
 ### Passo 1: Criar um Projeto no Google Cloud
 
 1. Acesse o [Google Cloud Console](https://console.cloud.google.com/)
