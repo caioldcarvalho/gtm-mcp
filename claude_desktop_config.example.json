@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gtm": {
+      "command": "node",
+      "args": [
+        "/CAMINHO/COMPLETO/PARA/gtm-mcp/build/index.js"
+      ],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "/CAMINHO/COMPLETO/PARA/service-account-key.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+build/
+dist/
+*.log
+.env
+.DS_Store
+credentials.json
+service-account-key.json
